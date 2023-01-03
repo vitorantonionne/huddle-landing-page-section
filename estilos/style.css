@@ -41,36 +41,74 @@ main {
 div#container > div#text > h1 {
     font-family: 'Poppins', sans-serif;
     color:  #FFFDFF;
-    font-size: 4.6rem;
+    font-size: 3.7rem;
 
-    line-height: 6.2rem;
-    margin-bottom: 4.2rem;
-    margin-top: 5rem;
+    width: 83%;
+
+    line-height: 5.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 5rem;  
 }
 
 div#container > div#text > p {
     color: #FFEEFF;
 
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 90%;
+    
+    margin-bottom: 2.7rem;
 }
 
+div#container > div#text > button {
+    background-color: white;
+    color: #7464A3;
 
+    width: 18rem;
+    height: 5rem;
+    
+    border: none;
+    border-radius: 5rem;
 
+    box-shadow: 1px 1px 3px 4px rgba(0, 0, 0, 0.158);
+}
 
+div#container > div#text > button:hover {
+    cursor: pointer;
+    background-color: hsl(300, 69%, 71%);
 
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1, 1.1);
 
+    box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.137);
+}
 
+footer > ul {
+    display: flex;
+    flex-direction: row-reverse;
 
+    list-style-type: none;  
 
+    margin-right: 5rem;
+}
 
+footer >ul > li {
+    padding: 1rem;
 
+}
 
+footer > ul > li a {
+    text-decoration: none;
+    position: relative;
+}
 
+.fa-facebook::before {
+    content: "\f09a";
+}
 
+.fa-twitter::before {
+    content: "\f099";
+}
 
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.fa-instagram::before {
+    content: "\f16d";
+}
