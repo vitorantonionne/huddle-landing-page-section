@@ -1,0 +1,76 @@
+@charset "UTF-08";
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+    background: hsl(257, 40%, 49%) url('../assets/images/bg-desktop.svg') no-repeat center center ;
+    background-size: cover;
+}
+
+header {
+    padding: 3.5rem 0rem 0rem 7rem ;
+}
+
+main {
+    margin: 4.4rem 0rem 0rem 7rem;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}
+
+div#container > div#text > h1 {
+    font-family: 'Poppins', sans-serif;
+    color:  #FFFDFF;
+    font-size: 4.6rem;
+
+    line-height: 5.2rem;
+    margin-bottom: 4.2rem;
+}
+
+div#container > div#text > p {
+    color: #FFEEFF;
+
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
