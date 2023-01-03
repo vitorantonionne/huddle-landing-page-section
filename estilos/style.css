@@ -30,7 +30,7 @@ header {
 }
 
 main {
-    margin: 4.4rem 0rem 0rem 7rem;
+    margin: 3.8rem 0rem 0rem 7rem;
 }
 
 #container {
@@ -92,23 +92,63 @@ footer > ul {
 }
 
 footer >ul > li {
-    padding: 1rem;
-
+    margin-right: 1.8rem;
 }
 
 footer > ul > li a {
+    color: white;
     text-decoration: none;
-    position: relative;
+    
+    font-size: 1.8rem;
+    padding: 0.8rem;
+
+    border: 1px solid white;
+    border-radius: 50%; 
+ 
+    display: flex;
 }
 
-.fa-facebook::before {
-    content: "\f09a";
+a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #7464A3;
+
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.2);
+
+    border: 1px solid hsl(300, 69%, 71%);
+    box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.137);
 }
 
-.fa-twitter::before {
-    content: "\f099";
-}
+@media screen and (max-width: 1091px) {
+    body {
+        background: hsl(257, 40%, 49%) url('../assets/images/bg-mobile.svg') no-repeat center center ;
+        background-size: cover;
+    }
 
-.fa-instagram::before {
-    content: "\f16d";
+    div#container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#container > div#text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#container > div#text > h1 {
+        width: 50%;
+    }
+
+    div#container > div#text > p {
+        width: 60%;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        margin: 5rem;
+        padding-left: 14rem;
+    }
 }
