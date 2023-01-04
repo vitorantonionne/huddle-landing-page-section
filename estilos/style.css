@@ -1,8 +1,4 @@
 @charset "UTF-08";
-/* 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
-*/
 
 * {
     padding: 0px;
@@ -14,47 +10,60 @@ font-family: 'Poppins', sans-serif;
     font-size: 62.5%;
 }
 
-html,body {
+html {
     height: 100%;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
 
-    background: hsl(257, 40%, 49%) url('../assets/images/bg-desktop.svg') no-repeat center center ;
-    background-size: cover;
-}
-
-header {
-    padding: 3.5rem 0rem 0rem 7rem ;
+    background: hsl(257, 40%, 49%) url('../assets/images/bg-desktop.svg') center center;
+    background-size: cover;  
 }
 
 main {
     margin: 3.8rem 0rem 0rem 7rem;
 }
 
+#logo {
+    margin-bottom: 4.5rem;
+}
+
 #container {
     display: flex;
-    gap: 6rem;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+div#container > div#img-mockups {
+    background: url('../assets/images/illustration-mockups.svg') no-repeat;
+    background-size: contain;
+
+    width: 155rem;
+    height: 47rem;
+}
+
+div#container > div#text{
+    margin-bottom: 14rem;
+    line-height: 2.2rem;
 }
 
 div#container > div#text > h1 {
     font-family: 'Poppins', sans-serif;
     color:  #FFFDFF;
-    font-size: 3.7rem;
+    font-size: 3.4rem;
 
     width: 83%;
 
-    line-height: 5.5rem;
+    line-height: 5rem;
     margin-bottom: 1.5rem;
-    margin-top: 5rem;  
 }
 
 div#container > div#text > p {
     color: #FFEEFF;
 
     font-size: 1.5rem;
-    width: 90%;
+    width: 80%;
     
     margin-bottom: 2.7rem;
 }
@@ -64,7 +73,7 @@ div#container > div#text > button {
     color: #7464A3;
 
     width: 18rem;
-    height: 5rem;
+    height: 4.7rem;
     
     border: none;
     border-radius: 5rem;
@@ -119,36 +128,47 @@ a:hover {
     box-shadow: 1px 1px 4px 5px rgba(0, 0, 0, 0.137);
 }
 
-@media screen and (max-width: 1091px) {
-    body {
-        background: hsl(257, 40%, 49%) url('../assets/images/bg-mobile.svg') no-repeat center center ;
+@media screen and (max-width: 984px) {
+     body {
+        background: hsl(257, 40%, 49%) url('../assets/images/bg-mobile.svg') no-repeat center center;
         background-size: cover;
     }
 
     div#container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+    } 
+
+    #img-mockups {
+        background: url('../assets/images/illustration-mockups.svg') no-repeat;
+        background-size: cover;
     }
 
     div#container > div#text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        text-align: center;
+        margin-left: 10rem;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
     }
 
     div#container > div#text > h1 {
-        width: 50%;
+        width: 70%;
     }
 
     div#container > div#text > p {
-        width: 60%;
+        width: 71%;
     }
 
+    div#container > div#text > button {
+        margin-left: -18rem;
+        
+    }
+    
     footer {
         display: flex;
         justify-content: center;
-        margin: 5rem;
-        padding-left: 14rem;
+        margin-top: 3rem;
+        padding-left: 7rem;
     }
 }
