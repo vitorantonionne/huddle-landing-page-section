@@ -58,4 +58,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [GitHub](https://github.com/vitorantonionne)
-- Frontend Mentor - [@vitorantonionne]([https://www.frontendmentor.io/profile/vitorantonionne])
+- Frontend Mentor - [@vitorantonionne](https://www.frontendmentor.io/profile/vitorantonionne)
