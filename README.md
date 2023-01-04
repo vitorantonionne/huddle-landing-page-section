@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-l5g3JAqwnQ)
-- Live Site URL: [Add live site URL here](https://vitorantonionne.github.io/huddle-landing-page-section/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-l5g3JAqwnQ)
+- Live Site URL: [github.io](https://vitorantonionne.github.io/huddle-landing-page-section/)
 
 ## My process
 
