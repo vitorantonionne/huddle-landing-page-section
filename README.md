@@ -40,8 +40,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/huddle-landing-page-with-a-single-introductory-section-l5g3JAqwnQ)
+- Live Site URL: [Add live site URL here](https://vitorantonionne.github.io/huddle-landing-page-section/)
 
 ## My process
 
@@ -57,6 +57,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [GitHub](https://github.com/vitorantonionne)
+- Frontend Mentor - [@vitorantonionne]([https://www.frontendmentor.io/profile/vitorantonionne])
